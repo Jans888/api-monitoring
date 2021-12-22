@@ -1,0 +1,30 @@
+{
+    "screenshotsFolder": "cypress/results/reports/screenshots",
+    "reporter": "cypress-multi-reporters",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "chromeWebSecurity": true,
+    "numTestsKeptInMemory": 12,
+    "pageLoadTimeout": 40000,
+    "video": false,
+    "env": {
+      "db": {
+        "host": "172.17.0.1",
+        "user": "root",
+        "password": "password",
+        "database": "db_api_monitor"
+      },
+      "allureResultsPath": "allure-results",
+      "allure": "true"
+  },
+    "reporterOptions": {
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+          "reportDir": "cypress/results",
+          "quite": true,
+          "overwrite": true,
+          "html": false,
+          "json": true
+      }
+  }
+}

@@ -1,0 +1,15 @@
+#Cypress ignore  for commits:
+node_modules
+allure-reports
+allure-results
+cypress/reports/mocha
+cypress/plugins/token.json
+cypress/plugins/credentials.json
+cypress/reports/mochareports
+cypress/reports/mochareports/assets
+cypress/downloads/*
+cypress/results
+cypress/videos
+cypress/fixtures
+cypress/screenshots/*
+mochawesome-report/*
